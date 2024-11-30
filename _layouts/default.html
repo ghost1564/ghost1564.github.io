@@ -19,6 +19,13 @@
     </aside>
     <main class="content">
         {{ content }}
+
+        {% if page.bibliography %}
+        <div class="citations">
+            <h2>References</h2>
+            {% bibliography --cited %}
+        </div>
+        {% endif %}
     </main>
 </div>
 </body>

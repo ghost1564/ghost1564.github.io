@@ -60,3 +60,18 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* Add these at the end of your existing CSS */
+.citations {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.references {
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+.references p {
+    margin-bottom: 1em;
+}

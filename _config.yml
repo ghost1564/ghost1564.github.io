@@ -1,3 +1,17 @@
 title: HMT Red Teaming
 description: HMT Red Teaming
 theme: minima
+
+# Add these lines for citation support
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  bibliography: references.bib
+  bibliography_template: bib
+  sort_by: author
+  order: ascending
+  source: _bibliography
+  bibliography_list_tag: div
+  bibliography_class: references
