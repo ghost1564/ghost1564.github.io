@@ -8,10 +8,6 @@ plugins:
 
 scholar:
   style: apa
+  source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: bib
-  sort_by: author
-  order: ascending
-  source: _bibliography
-  bibliography_list_tag: div
-  bibliography_class: references
+  bibliography_template: "{{reference}}"
