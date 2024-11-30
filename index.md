@@ -4,8 +4,6 @@ title: Welcome
 bibliography: references.bib
 ---
 
-# Introduction
+# Welcome
 
-This is some text with a citation {% cite smith2020 %}.
-
-More text with another citation {% cite jones2019 %}.
+This is a test page with a citation {% cite example2024 %}.
