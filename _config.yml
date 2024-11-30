@@ -2,7 +2,6 @@ title: HMT Red Teaming
 description: HMT Red Teaming
 theme: minima
 
-# Add these lines for citation support
 plugins:
   - jekyll-scholar
 
